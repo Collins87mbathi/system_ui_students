@@ -1,0 +1,40 @@
+.newStudent {
+    flex: 4;
+    margin-left: 100px;
+  }
+  
+  .addStudentForm {
+    margin-top: 10px;
+  }
+  
+  .addStudentItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .addStudentItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .addStudentItem > input {
+    padding: 10px;
+  }
+  
+  .addStudentItem > select {
+    padding: 10px;
+  }
+  
+  .addStudentButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
